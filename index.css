@@ -1,0 +1,50 @@
+body{
+    color: bisque;
+    background-color: black;
+    width: 100vw;
+    overflow-x: hidden;
+    margin: -0.1%;
+    position: relative;
+}
+header{
+    height: 8vh;
+    width: 100vw;
+    background-color: rgb(200, 200, 200);
+    
+}
+header img{
+    width: 17vw;
+    margin-left: 10%;
+}
+header div i{
+    position: absolute;
+    top: 3vw;
+    right: 5%;
+    font-size: 200%;
+    color: black;
+    /* padding: 2%; */
+}
+#all-menu{
+    position: fixed;
+    color: black;
+    margin-left: -100vw;
+    width: 100vw;
+    height: 100vh;
+    background-color: antiquewhite;
+    float: left;
+    display: block;
+}
+#all-menu ul{
+    margin: 0px auto;
+    width: 90vw;
+    list-style-type: none;
+    margin-top: -3%;
+}
+
+#all-menu ul li{
+    margin: 0px auto;
+    padding: 20% 0 20% 0;
+    margin-top: -5%;
+    text-align: center;
+    margin-left: -5vw;
+}   
