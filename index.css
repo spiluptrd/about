@@ -48,3 +48,10 @@ header div i{
     text-align: center;
     margin-left: -5vw;
 }   
+#image{
+    width: 100vw;
+   border-radius: 10px;
+}
+#forex{
+    color: blue;
+}
