@@ -52,6 +52,9 @@ header div i{
     width: 100vw;
    border-radius: 10px;
 }
+#main{
+    margin: 5%;
+}
 #forex{
     color: blue;
 }
