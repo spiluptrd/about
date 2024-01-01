@@ -34,7 +34,7 @@ seeMore.addEventListener('click', ()=>{
         console.log(firstCount)
         div1.style.transition = "1s";
         div1.style.overflow = 'hidden'
-        div1.style.height = '36vh'        
+        div1.style.height = '50vh'        
         seeMore.innerHTML = `See more &nbsp; <i class="fa-solid fa-arrow-up"></i>`
     }
     if(firstCount == 2){
@@ -53,7 +53,7 @@ secondSeeMore.addEventListener('click',()=>{
     if(secnodCount > 0 ){
         div2.style.transition = "1s";
         div2.style.overflow = 'hidden'
-        div2.style.height = '36vh'        
+        div2.style.height = '55vh'        
         secondSeeMore.innerHTML = `See more &nbsp; <i class="fa-solid fa-arrow-up"></i>`
     }
     if(secnodCount == 2){
