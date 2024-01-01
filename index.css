@@ -1,15 +1,19 @@
 body{
-    color: bisque;
-    background-color: black;
+    color: black;
+    background-color: rgb(253, 251, 251);
     width: 100vw;
     overflow-x: hidden;
     margin: -0.1%;
     position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 header{
     height: 8vh;
     width: 100vw;
-    background-color: rgb(200, 200, 200);
+    background-color: rgb(204, 204, 204);
+    position: fixed;
+    top: 0%;
+    box-shadow: 0px 0px 15px black;
     
 }
 header img{
@@ -40,7 +44,6 @@ header div i{
     list-style-type: none;
     margin-top: -3%;
 }
-
 #all-menu ul li{
     margin: 0px auto;
     padding: 20% 0 20% 0;
@@ -48,13 +51,34 @@ header div i{
     text-align: center;
     margin-left: -5vw;
 }   
+#h2-text{
+    margin-top: 20%;
+}
 #image{
     width: 100vw;
    border-radius: 10px;
+ 
 }
 #main{
     margin: 5%;
 }
+h1{
+    text-align: center;
+    font-size: 180%;
+    font-weight: bolder;
+}
 #forex{
     color: blue;
+}
+#div1, #div2{
+    /* border: 1px solid green; */
+    height: 21vh;
+    overflow-y: hidden;
+}
+#div1btn, #div2btn{
+    background-color: white;
+    outline: none;
+    border: none;
+    width: 100%;
+    border-top: 1px solid black;
 }
