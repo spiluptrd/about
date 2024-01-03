@@ -14,7 +14,7 @@ header{
     position: fixed;
     top: 0%;
     box-shadow: 0px 0px 15px black;
-    z-index: 10;
+    z-index: 30;
     
 }
 header img{
@@ -39,6 +39,7 @@ header div i{
     float: left;
     display: block;
     margin-top: -5%;
+    z-index: 10;
 }
 #all-menu ul{
     margin: 0px auto;
@@ -48,11 +49,14 @@ header div i{
 }
 #all-menu ul li{
     margin: 0px auto;
-    padding: 20% 0 20% 0;
+    padding: 20% 0 0 0;
     margin-top: -5%;
     text-align: center;
     margin-left: -5vw;
 }   
+#all-menu ul li:active{
+    color: red;
+}
 #h2-text{
     margin-top: 20%;
     font-size: 97%;
@@ -88,4 +92,158 @@ h1{
     border-top: 1px solid black;
     font-size: 105%;
     color: black;
+    
 }
+#footer{
+    width: 100%;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 80%;
+    background-color: grey;
+}
+
+
+
+#cross{
+    /* position: absolute;
+    top:25vh;
+    right:15%; */
+    float: right;
+    font-size: 150%;
+    margin-right: 5%;
+}
+#form-container{
+    background-image: linear-gradient(to right,  rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1));
+    background-size: cover;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top:5%;
+    z-index: 20;
+    visibility: hidden;
+
+}
+#contact-form{
+width: 80%;
+margin: 0px auto;
+margin-top: 40%;
+border: 1px solid white;
+background-color: white;
+border-radius: 20px;
+padding-top: 8%;
+}
+input[type="text"], [type="email"], [type="number"]{
+width: 90%;
+margin: 5%;
+outline: none;
+border: none;
+border-bottom: 1px solid black; 
+font-family: inherit;
+
+}
+#text{
+    margin: 5%;
+    width: 90%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    font-family: inherit; 
+}
+#submit{
+    width: 90%;
+    margin-left: 5%;
+    outline: none;
+    border: none;
+    margin-bottom: 3%;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100%;
+    background-color: rgb(29, 44, 156);
+    position: relative;
+    /* animation-name: done; */
+    animation-duration: 2.5s;
+    animation-iteration-count: 1;
+    animation-direction:normal;
+    animation-timing-function: ease-in-out;
+    border-radius: 15px;
+}
+@keyframes done{
+    0%{
+        width: 50%;
+        color: rgb(255, 239, 93);
+        background-color: rgb(255, 239, 93);
+        left: 0%;
+        top: 0%;
+    }
+    25%{
+        color: red;
+        width: 15%;
+        background-color: red;
+        left: 0%; 
+        top: 0%;
+    }
+    50%{
+        color: orangered;
+        background-color: orangered;
+        width: 20%;
+        left: 70%;
+    }
+    75%{
+        color: orange;
+        background-color: orange;
+        width: 20%;
+        left: 70%;  
+    }
+    100%{
+        color: red;
+        width: 50%;
+        background-color: red;
+        left: 0%; 
+        top: 0%;
+    }
+
+}
+@keyframes failed{
+    0%{
+        width: 50%;
+        color: rgb(255, 239, 93);
+        background-color: rgb(255, 239, 93);
+        left: 0%;
+        top: 0%;
+    }
+    25%{
+        color: red;
+        width: 15%;
+        background-color: red;
+        left: 0%; 
+        top: 0%;
+    }
+    50%{
+        color: orangered;
+        background-color: orangered;
+        width: 20%;
+        left: 70%;
+        /* top:10%; */
+    }
+    75%{
+        color: orange;
+        background-color: orange;
+        width: 20%;
+        left: 70%;
+        /* top: 35%; */
+    }
+    100%{
+        color: red;
+        width: 50%;
+        background-color: red;
+        left: 0%; 
+        top: 0%;
+    }
+
+}
+#submit:active{
+    color:  rgb(29, 44, 156);
+    background-color:white;
+    border: 5px solid rgb(29, 44, 156);
+}
+
